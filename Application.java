@@ -22,4 +22,18 @@ public class MyClass {
         // Calling the public method
         myObject.publicMethod();
     }
+	#feature201 changes by Vivek on oct2024 for Services Module
+	public static void main(String[] args) {
+    
+    int num1 = 25;
+    int num2 = 15;
+
+    // create an object of Main
+    Main obj = new Main();
+    // calling method
+    int result = obj.addNumbers(num1, num2);
+    System.out.println("Sum is: " + result);
+  }
+  #end of feature201 code
+  
 }
